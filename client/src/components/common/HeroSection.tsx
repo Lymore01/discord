@@ -4,10 +4,10 @@ const HeroSection = () => {
   return (
     <>
       <div className="w-full h-auto p-0 flex flex-col gap-[20px] sm:gap-[30px] sm:place-content-center sm:pt-[30px]">
-        <h1 className="text-[white] font-extrabold text-[26px] sm:text-[56px] sm:text-center">
+        <h1 className="text-[white] font-extrabold text-[26px] sm:text-[56px] md:text-start lg:text-center">
           IMAGINE A PLACE...
         </h1>
-        <p className="text-white text-[15px] sm:text-[20px] leading-6 sm:text-center font-light sm:leading-10">
+        <p className="text-white text-[15px] sm:text-[20px] leading-6 lg:text-center md:text-start font-light sm:leading-10">
           ...where you can belong to a school club, a gaming group, or a
           worldwide art community.<br className="hidden sm:flex"></br> Where
           just you and a handful of friends can spend time together. A place

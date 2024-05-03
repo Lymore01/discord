@@ -11,7 +11,7 @@ import Logo from "./Logo";
 const Footer = () => {
   return (
     <>
-      <div className="grid md:grid-rows-3 grid-cols-1 items-start justify-start bg-[#2C2F33] p-6 mt-[50px] text-white gap-[40px] pt-24">
+      <div className="grid md:grid-rows-3 grid-cols-1 lg:grid-cols-2 items-start justify-start bg-[#2C2F33] p-6 mt-[50px] text-white gap-[40px] pt-24">
         <div className="flex flex-col gap-[40px]">
           <div className="flex flex-row gap-[10px] items-center">
             <span className="text-[14px]">English</span>
@@ -37,7 +37,7 @@ const Footer = () => {
             </span>
           </div>
         </div>
-        <div className="grid md:grid-rows-2 grid-cols-2 gap-[40px]  md:pb-[30px] p-2">
+        <div className="grid md:grid-rows-2 lg:grid-rows-1 lg:grid-cols-4 grid-cols-2 gap-[40px] lg:gap-[30px] md:pb-[30px] p-2">
           {menus.map((menu) => (
             <FooterMenu title={menu.title} links={menu.links} />
           ))}

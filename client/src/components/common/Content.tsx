@@ -4,6 +4,7 @@ import { MdOutlineFileDownload } from "react-icons/md";
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 
+
 const Content = () => {
   const ref1 = useRef(null);
   const ref2 = useRef(null);
@@ -35,7 +36,7 @@ const Content = () => {
         initial="initial"
         animate={isInView1 ? "animate" : "initial"}
         variants={variants}
-        transition={{ duration: 1, ease: "easeIn", type:"spring" }}
+        transition={{ duration: 1, ease: "easeIn", type: "spring" }}
         className="w-full flex mt-[50px] bg-white flex-col p-4 md:flex-row lg:flex-row lg:w-[100%] lg:gap-[50px] lg:pt-20 lg:pb-20"
       >
         <div className="lg:w-[50%] md:w-[50%] h-[100%]">
@@ -63,10 +64,10 @@ const Content = () => {
         initial="initial"
         animate={isInView2 ? "animate" : "initial"}
         variants={variants}
-        transition={{ duration: 1, ease: "easeIn", type:"spring" }}
+        transition={{ duration: 1, ease: "easeIn", type: "spring" }}
         className="w-full flex mt-[50px] bg-white lg:bg-[whitesmoke] flex-col p-4 lg:flex-row md:flex-row lg:w-[100%] lg:gap-[50px] lg:pt-20 lg:pb-20"
       >
-         <div className="lg:w-[50%] md:w-[50%] h-[100%] flex md:hidden lg:hidden">
+        <div className="lg:w-[50%] md:w-[50%] h-[100%] flex md:hidden lg:hidden">
           <img
             src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/6582c1b717efff2306ef179e_Where%20hanging%20out%20is%20easy.svg"
             loading="lazy"
@@ -97,7 +98,7 @@ const Content = () => {
         initial="initial"
         animate={isInView3 ? "animate" : "initial"}
         variants={variants}
-        transition={{ duration: 1, ease: "easeIn", type:"spring" }}
+        transition={{ duration: 1, ease: "easeIn", type: "spring" }}
         className="w-full flex mt-[50px] bg-white flex-col p-4 lg:flex-row md:flex-row lg:w-[100%] lg:gap-[50px] lg:pt-20 lg:pb-20"
       >
         <div className="lg:w-[50%] md:w-[50%%] h-[100%]">
@@ -124,7 +125,7 @@ const Content = () => {
         initial="initial"
         animate={isInView4 ? "animate" : "initial"}
         variants={variants}
-        transition={{ duration: 1, ease: "easeIn", type:"spring" }}
+        transition={{ duration: 1, ease: "easeIn", type: "spring" }}
         className="w-full flex mt-[50px] bg-[whitesmoke] flex-col p-4 lg:pt-20 lg:pb-20"
       >
         <div className="flex flex-col gap-[20px] p-4">
@@ -154,7 +155,7 @@ const Content = () => {
         initial="initial"
         animate={isInView5 ? "animate" : "initial"}
         variants={variants}
-        transition={{ duration: 1, ease: "easeIn", type:"spring" }}
+        transition={{ duration: 1, ease: "easeIn", type: "spring" }}
       >
         <div className="w-full mb-[-40px]">
           <img
