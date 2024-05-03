@@ -39,7 +39,7 @@ const Footer = () => {
         </div>
         <div className="grid md:grid-rows-2 lg:grid-rows-1 lg:grid-cols-4 grid-cols-2 gap-[40px] lg:gap-[30px] md:pb-[30px] p-2">
           {menus.map((menu) => (
-            <FooterMenu title={menu.title} links={menu.links} />
+            <FooterMenu title={menu.title} links={menu.links} key={menu.id}/>
           ))}
         </div>
         <div className="flex flex-row justify-between border border-t-[#5865F2] border-[transparent] pt-8 pb-8">
