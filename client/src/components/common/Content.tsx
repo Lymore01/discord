@@ -12,11 +12,11 @@ const Content = () => {
   const ref4 = useRef(null);
   const ref5 = useRef(null);
 
-  const isInView1 = useInView(ref1, { once: true });
-  const isInView2 = useInView(ref2, { once: true });
-  const isInView3 = useInView(ref3, { once: true });
-  const isInView4 = useInView(ref4, { once: true });
-  const isInView5 = useInView(ref5, { once: true });
+  const isInView1 = useInView(ref1, { once: false });
+  const isInView2 = useInView(ref2, { once: false });
+  const isInView3 = useInView(ref3, { once: false });
+  const isInView4 = useInView(ref4, { once: false });
+  const isInView5 = useInView(ref5, { once: false });
 
   const variants: any = {
     initial: {
